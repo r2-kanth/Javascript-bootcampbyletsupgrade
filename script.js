@@ -19,7 +19,11 @@ if(age >= 18){
 }
 else{
     console.log('you are A Minor');
-}*/
+}
 const  numbers =[10,20,30,40,50,60,70,80,90,100,110];
 const greaterthan30 =numbers.filter(num => num >40);
-console.log(greaterthan30);
+console.log(greaterthan30);*/
+
+const arr=[1,2,3,4,5,6]
+const sum = arr.reduce((acc,num) =>acc+num,0);
+console.log(sum);
