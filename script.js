@@ -12,11 +12,14 @@ var sub=a+b-c;
 var mul=a*b*c;
 console.log(add);
 console.log(sub);
-console.log(mul);*/
+console.log(mul);
 let age = 28;
 if(age >= 18){
     console.log('You are an Adult!');
 }
 else{
     console.log('you are A Minor');
-}
+}*/
+const  numbers =[10,20,30,40,50,60,70,80,90,100,110];
+const greaterthan30 =numbers.filter(num => num >40);
+console.log(greaterthan30);
